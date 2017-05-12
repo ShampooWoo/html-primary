@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style:none;
+    float:left;
+}
+
+body {
+    background-color: #efefef;
+    margin: 0 auto;
+    font-family:Arial;
+}
+
+.nav_bar {
+    width: 900px;
+    border: 1px solid blue;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    text-align: center;
+}
+
+.nav_bar a {
+    color:black;
+    margin:0px 20px;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    color:black;
+    text-decoration: underline;
+}
